@@ -1,0 +1,331 @@
+/*
+	Resets
+	------	
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* 
+	Typography
+	----------
+*/
+
+body {
+	font-family: sans-serif;
+	font-size: 112.5%;
+	line-height: 1.25;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-weight: normal;
+	max-width: 32em;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4, h5, h6 {
+	font-size: 1em;
+}
+
+p {
+	line-height: 1.25em;
+	max-width: 32em;
+}
+
+body > header {
+	background-color: transparent;
+}
+
+body > header > h1 {
+	font-size: 3em;
+}
+
+body > header > h1 a {
+	background-image: url("images/logo.png");
+	background-repeat: no-repeat;
+	display: block;
+	height: 52px;
+	text-indent: -9999px;
+	width: 203px;
+}
+
+@media only screen and (max-width: 1200px) {
+	
+	h1 {
+		font-size: 1.5em;
+	}
+
+	h2 {
+		font-size: 1.25em;
+	}
+
+	h3 {
+		font-size: 1.1em;
+	}
+	
+	body > header > h1 {
+		font-size: 2.5em;
+	}
+}
+
+@media only screen and (max-width: 800px) {
+
+	h1 {
+		font-size: 1.25em;
+	}
+
+	h2 {
+		font-size: 1.1em;
+	}
+
+	h3 {
+		font-size: 1em;
+	}
+
+	body > header > h1 {
+		font-size: 2em;
+	}
+}
+
+/*
+	Content styles
+	--------------
+*/
+
+html {
+}
+
+body {
+	background: #018bb2; /* Old browsers */
+	background: -moz-linear-gradient(top, #018bb2 1%, #005483 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#018bb2), color-stop(100%,#005483)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #018bb2 1%,#005483 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #018bb2 1%,#005483 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #018bb2 1%,#005483 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#018bb2', endColorstr='#005483',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #018bb2 1%,#005483 100%); /* W3C */
+	color: #A1A1A1;
+}
+
+body > * {
+	margin: 2em;
+	padding: 2em 4em 2em;
+	background-color: #fefefe;
+	overflow: hidden;
+	border-radius: 2em;
+}
+
+a {
+	color: #027C9A;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+article {
+	
+}
+
+article > header dt,
+article > header dd,
+article > header li {
+	float: left;
+	list-style-type: none;
+	margin-right: .5em;
+}
+
+article > header dt:after {
+	content: ":";
+}
+
+article > header li:after {
+	content: ",";
+}
+
+article > header dt {
+	font-variant: small-caps;
+	text-transform: lowercase;
+}
+
+/* ensure spacing in article elements */
+article > * {
+	clear: both;
+	margin: 0 0 1.5em;
+}
+
+/* don't conflict with overall article spacing */
+article > * :last-child {
+	margin: 0;
+}
+
+article img {
+	max-width: 100%;
+}
+
+aside li {
+	float: left;
+	margin-right: .5em;
+	list-style: none;
+}
+
+body > footer {
+	clear: both;
+}
+
+/* Pagination nav */
+.wp-pagenavi > * {
+	margin-right: 1em;
+}
+
+/* Custom filters */
+
+.category-rss-feed > * {
+	display: none;
+}
+
+.category-rss-feed > header {
+	display: block;
+}
+
+.category-digg > header h1:after {
+	content: " via Digg";
+}
+
+.category-foursquare > header h1:after {
+	content: " via Foursquare";
+}
+
+.category-goodreads > header h1:after {
+	content: " via Goodreads";
+}
+
+.category-last-fm > header h1:after {
+	content: " via Last.fm";
+}
+
+.category-pandora > header h1:after {
+	content: " via Pandora";
+}
+
+.category-tumblr > header h1:after {
+	content: " via Tumblr";
+}
+
+.category-twitter > header h1:after {
+	content: " via Twitter";
+}
+
+.category-xanga > header h1:after {
+	content: " via Xanga";
+}
+
+.category-yelp > header h1:after {
+	content: " via Yelp";
+}
+
+/* hide metadata except for hover */
+.postmetadata {
+}
