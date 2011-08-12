@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage clean
+ * @subpackage brave
  */
 
 if ( function_exists('register_sidebar') )

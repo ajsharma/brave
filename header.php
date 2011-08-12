@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage clean
+ * @subpackage brave
  */
 ?>
 <!DOCTYPE html>

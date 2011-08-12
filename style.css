@@ -200,14 +200,6 @@ html {
 }
 
 body {
-	background: #018bb2; /* Old browsers */
-	background: -moz-linear-gradient(top, #018bb2 1%, #005483 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#018bb2), color-stop(100%,#005483)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #018bb2 1%,#005483 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #018bb2 1%,#005483 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #018bb2 1%,#005483 100%); /* IE10+ */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#018bb2', endColorstr='#005483',GradientType=0 ); /* IE6-9 */
-	background: linear-gradient(top, #018bb2 1%,#005483 100%); /* W3C */
 	color: #A1A1A1;
 }
 
@@ -232,9 +224,8 @@ article {
 article > header dt,
 article > header dd,
 article > header li {
-	float: left;
+	display: block;
 	list-style-type: none;
-	margin-right: .5em;
 }
 
 article > header dt:after {
@@ -251,14 +242,7 @@ article > header dt {
 }
 
 /* ensure spacing in article elements */
-article > * {
-	clear: both;
-	margin: 0 0 1.5em;
-}
-
-/* don't conflict with overall article spacing */
-article > * :last-child {
-	margin: 0;
+article {
 }
 
 article img {
@@ -266,8 +250,7 @@ article img {
 }
 
 aside li {
-	float: left;
-	margin-right: .5em;
+	display: inline-block;
 	list-style: none;
 }
 
