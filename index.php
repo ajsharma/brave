@@ -5,7 +5,9 @@
  */
 ?>
 <?php get_header(); ?>
-		
+
+<div class="content">
+
 <?php /* If there are no posts to display, such as an empty archive page */ ?>
 <?php if ( ! have_posts() ) : ?>
 	<div id="post-0" class="post error404 not-found">
@@ -36,39 +38,12 @@
 				
 <article <?php post_class() ?> id="post<?php the_ID(); ?>" >
 	<header>
-		<hgroup>
-			<h1 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
-		</hgroup>
-		
-		<dl class="postmetadata">
-			<dt>Published</dt>
-			<dd><time pubdate datetime="<?php the_time('c') ?>">
-			<span class="month"><?php the_time('F') ?></span>
+		<time pubdate datetime="<?php the_time('c') ?>">
+			<span class="month"><?php the_time('F') ?></span>,
 			<span class="day"><?php the_time('d') ?></span>
 			<span class="year"><?php the_time('Y') ?></span>
-			</time></dd>			
-			
-			<dt>Comments</dt>
-			<dd><?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?></dd>
-
-			<dt>Categories</dt>
-			<dd>
-				<ul class="posttags"><li>
-				<?php 
-				// categories list
-				the_category('</li><li>'); 
-				?>
-				</li></ul>
-			</dd>
-
-			<dt>Tags</dt>
-			<dd>
-			<?php 
-			// tags list
-			the_tags('<ul class="posttags"><li>','</li><li>','</li></ul>'); 
-			?>	
-			</dd>
-		</dl>
+		</time>
+		<h1 class="posttitle"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
 	</header>
 
 	<?php the_content('continue reading...'); ?>
@@ -86,6 +61,8 @@
 <nav id="postsnavigation">
 	<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
 </nav>
+
+</div> <!--end of content-->
 
 <?php get_sidebar(); ?>		
 		
