@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background: #000000 url("images/bg.jpg");
+	background: #000000;
 	color: #808487;
 	padding: 1em;
 }
