@@ -351,6 +351,10 @@ article img {
 	content: " via Digg";
 }
 
+.category-dribbble header h1:after {
+	content: " via Dribbble";
+}
+
 .category-foursquare header h1:after {
 	content: " via Foursquare";
 }
@@ -365,6 +369,10 @@ article img {
 
 .category-pandora header h1:after {
 	content: " via Pandora";
+}
+
+.category-quora header h1:after {
+	content: " via Quora";
 }
 
 .category-tumblr header h1:after {
