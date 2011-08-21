@@ -191,12 +191,12 @@ html {
 
 body {
 	background: #000000;
-	color: #808487;
+	color: #57585C;
 	padding: 1em;
 }
 
 a {
-	color: #3D3E40;
+	color: #7C7E83;
 	text-decoration: none;
 }
 
@@ -204,7 +204,7 @@ a:active,
 a:focus,
 a:hover
  {
-	color: #232425;
+	color: #B0B2B5;
 }
 
 aside,
