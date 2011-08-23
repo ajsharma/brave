@@ -146,7 +146,7 @@ input[type="file"]:hover {
 */
 
 body {
-	font-family: sans-serif;
+	font-family: "Century Gothic", AppleGothic, Arial, sans-serif;
 	font-size: 112.5%;
 	line-height: 1.25;
 	transition:all .2s linear; 
@@ -161,19 +161,19 @@ h4, h5, h6 {
 }
 
 h1 {
-	font-size: 1.5em;
+	font-size: 2em;
 }
 
 h2 {
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 
 h3 {
-	font-size: 1.15em;
+	font-size: 1.25em;
 }
 
 h4, h5, h6 {
-	font-size: 1.15em;
+	font-size: 1.1em;
 }
 
 p {
@@ -190,7 +190,7 @@ html {
 }
 
 body {
-	background: #000000;
+	background: #ffffff;
 	color: #57585C;
 	padding: 1em;
 }
@@ -258,6 +258,7 @@ article img {
 }
 
 .global-header {
+	background: #000000;
 	margin: -1em -1em .5em;
 	padding: 1em;
 }
