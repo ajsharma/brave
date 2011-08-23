@@ -308,17 +308,13 @@ article img {
 }
 
 .global-footer a {
-	border-radius: 2px;
 	display: block;
-	padding: 0 1em;
-	margin: 1em 0;
+	margin: 0 0 1em;
 }
 
 .global-footer a:hover,
 .global-footer a:active,
 .global-footer a:focus{
-	background: #eeeeee;
-	color: #3D3E40;
 }
 
 .content {
