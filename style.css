@@ -161,15 +161,15 @@ h4, h5, h6 {
 }
 
 h1 {
-	font-size: 2em;
-}
-
-h2 {
 	font-size: 1.5em;
 }
 
-h3 {
+h2 {
 	font-size: 1.25em;
+}
+
+h3 {
+	font-size: 1.15em;
 }
 
 h4, h5, h6 {
@@ -406,6 +406,22 @@ article img {
   /* Style adjustments for viewports 768px and over go here */
 	body {
 	    font-size:125%;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.5em;
+	}
+
+	h3 {
+		font-size: 1.25em;
+	}
+
+	h4, h5, h6 {
+		font-size: 1.1em;
 	}
 
 	.wp-pagenavi > * {
