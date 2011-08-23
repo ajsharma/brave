@@ -299,7 +299,10 @@ article img {
 }
 
 .global-footer {
+	border-top: 1px solid rgba(128, 128, 128,.25);
 	clear: both;
+	margin-top: 3em;
+	padding-top: 1em;
 }
 
 .global-footer li {
