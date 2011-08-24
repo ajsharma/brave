@@ -96,11 +96,11 @@ hr {
 input, textarea, select {
 	border: 1px solid #bfbfbf;
 	border-radius: 2px;
-	box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	-khtml-box-sizing: border-box;
+	box-sizing: border-box;
 	font: inherit;
 	padding: .5em;
 	width: 100%;
@@ -269,6 +269,7 @@ article img {
 	font-weight: bold;
 	background-image: url("images/logo.png");
 	background-repeat: no-repeat;
+	direction: ltr;
 	display: block;
 	height: 30px;
 	text-indent: -9999px;
@@ -292,7 +293,7 @@ article img {
 	vertical-align: top;
 }
 
-.global-header #searchform #searchsubmit {
+.global-header #searchsubmit {
 	position: absolute;
 	right: 0;
 	top: 0;
