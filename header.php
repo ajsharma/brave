@@ -27,9 +27,9 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class(page_body_class()); ?>>
 <div class="everything">
 	<header class="global-header">
 		<?php get_search_form(); ?>
-		<h1><a href="<?php echo get_option('home'); ?>/"><?php bloginfo('name'); ?></a></h1>
+		<h1><a href="<?php echo get_option('home'); ?>/">Aj<span class="ay">ay</span> Sharma</a></h1>
 	</header>
