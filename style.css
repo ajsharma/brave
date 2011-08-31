@@ -264,16 +264,13 @@ article img {
 	padding: 1em;
 }
 
-.global-header  a {
-	color: white;
-	font-weight: bold;
-	background-image: url("images/logo.png");
-	background-repeat: no-repeat;
+.global-header a {
 	direction: ltr;
 	display: block;
-	height: 30px;
-	text-indent: -9999px;
-	width: 160px;
+}
+
+.global-header .ay {
+	opacity: .5;
 }
 
 /* Header search bar */
