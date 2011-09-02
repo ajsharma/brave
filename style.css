@@ -258,12 +258,6 @@ article img {
 	max-width: 100%;
 }
 
-.global-header {
-	background: #000000;
-	margin: -1em -1em .5em;
-	padding: 1em;
-}
-
 .global-header a {
 	direction: ltr;
 	display: block;
