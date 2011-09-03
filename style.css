@@ -366,6 +366,10 @@ article img {
 	content: " via Quora";
 }
 
+.category-stack-overflow header h1:after {
+	content: " via Stack Overflow";
+}
+
 .category-tumblr header h1:after {
 	content: " via Tumblr";
 }
