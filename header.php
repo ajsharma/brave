@@ -5,6 +5,7 @@
  */
 ?>
 <!DOCTYPE html>
+<head>
 	<meta charset="utf-8"> 
 	<!-- Add "maximum-scale=1" to fix the weird iOS auto-zoom bug on orientation changes. --> 
 	<meta name="viewport" content="width=device-width; initial-scale=1"/>  
