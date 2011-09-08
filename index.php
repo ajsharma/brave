@@ -45,7 +45,7 @@
 
 <?php endwhile; ?>
 			
-<nav id="postsnavigation">
+<nav class="postsnavigation">
 	<?php posts_nav_link(); ?>
 </nav>
 
