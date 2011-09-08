@@ -26,10 +26,7 @@
 	</ul>
 </footer>
 
-<!-- end of content, begin the onslaught of plugins! -->
-<div>
-</body>
-</html>
+<div><!-- end of content, begin the onslaught of plugins! -->
 
 <!-- google analytics -->
 <script type="text/javascript">
@@ -44,3 +41,6 @@
 	catch(err) {}
 </script>
 <!-- End of google analytics -->
+
+</body>
+</html>
