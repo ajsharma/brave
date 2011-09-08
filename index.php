@@ -21,7 +21,7 @@
 
 <?php
 // Start the Loop.
-<? while (have_posts()) : the_post(); ?>
+while (have_posts()) : the_post(); ?>
 				
 <article <?php post_class() ?> id="post<?php the_ID(); ?>" >
 	<header>
