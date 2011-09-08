@@ -1,7 +1,7 @@
 <?php
 /**
  * @package WordPress
- * @subpackage brave
+ * @subpackage clean
  */
 ?>
 <?php get_header(); ?>
@@ -20,20 +20,7 @@
 <?php endif; ?>
 
 <?php
-	/* Start the Loop.
-	 *
-	 * In Twenty Ten we use the same loop in multiple contexts.
-	 * It is broken into three main parts: when we're displaying
-	 * posts that are in the gallery category, when we're displaying
-	 * posts in the asides category, and finally all other posts.
-	 *
-	 * Additionally, we sometimes check for whether we are on an
-	 * archive page, a search page, etc., allowing for small differences
-	 * in the loop on each template without actually duplicating
-	 * the rest of the loop that is shared.
-	 *
-	 * Without further ado, the loop:
-	 */ ?>
+// Start the Loop.
 <? while (have_posts()) : the_post(); ?>
 				
 <article <?php post_class() ?> id="post<?php the_ID(); ?>" >
