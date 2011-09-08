@@ -59,7 +59,7 @@
 <?php endwhile; ?>
 			
 <nav id="postsnavigation">
-	<?php if(function_exists('wp_pagenavi')) { wp_pagenavi(); } ?>
+	<?php posts_nav_link(); ?>
 </nav>
 
 </div> <!--end of content-->
