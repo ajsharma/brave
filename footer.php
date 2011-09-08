@@ -26,7 +26,7 @@
 	</ul>
 </footer>
 
-<div><!-- end of content, begin the onslaught of plugins! -->
+</div><!-- end of content, begin the onslaught of plugins! -->
 
 <!-- google analytics -->
 <script type="text/javascript">
