@@ -282,12 +282,10 @@ article img {
 	height: 30px;
 	padding: 0 .5em;
 	vertical-align: top;
+	width: auto;
 }
 
 .global-header #searchsubmit {
-	position: absolute;
-	right: 0;
-	top: 0;
 	width: 5em;
 }
 
@@ -352,6 +350,10 @@ article img {
 
 .category-goodreads header h1:after {
 	content: " via Goodreads";
+}
+
+.category-instapaper header h1:after {
+	content: " via Instapaper Favorites";
 }
 
 .category-last-fm header h1:after {
