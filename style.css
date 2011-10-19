@@ -278,15 +278,19 @@ article img {
 }
 
 .global-header #searchform input {
-	display: inline-block;
 	height: 30px;
-	padding: 0 .5em;
 	vertical-align: top;
-	width: auto;
+}
+
+.global-header #s {
+	padding-right: 50px
 }
 
 .global-header #searchsubmit {
-	width: 5em;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 50px;
 }
 
 .global-footer {
