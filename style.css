@@ -215,7 +215,7 @@ footer {
 }
 
 article {
-	margin: 5em inherit;
+	margin: 2em inherit 5em;
 }
 
 article ol,
