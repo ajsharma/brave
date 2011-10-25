@@ -434,6 +434,10 @@ article img {
 		display: inline-block;
 	}
   
+  	.global-header #searchform input {
+		height: 50px;
+	}
+  
 	.linkslist {
 		column-count: 5;
 		column-gap: 1em;
