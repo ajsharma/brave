@@ -110,7 +110,6 @@ input[type="button"],
 input[type="submit"], 
 input[type="reset"], 
 input[type="file"] {
-	background-color: #D67200;
 	border: none;
 	color: #ffffff;
 	cursor: pointer;
@@ -216,6 +215,7 @@ footer {
 
 article {
 	margin: 2em inherit 5em;
+	overflow: hidden; /* To stop media from causing horizontal overflow */
 }
 
 article ol,
@@ -248,7 +248,8 @@ article header dt {
 }
 
 /* ensure spacing in article elements */
-article > * {
+article > *,
+.article-content > * {
 	clear: both;
 	margin: 0 0 1em;
 }
@@ -352,6 +353,10 @@ article img {
 	content: " via Foursquare";
 }
 
+.category-foursquare .article-content {
+	display: none;
+}
+
 .category-goodreads header h1:after {
 	content: " via Goodreads";
 }
@@ -368,6 +373,10 @@ article img {
 	content: " via Pandora";
 }
 
+.category-pinterest header h1:after {
+	content: " via Pinterest";
+}
+
 .category-quora header h1:after {
 	content: " via Quora";
 }
@@ -382,6 +391,10 @@ article img {
 
 .category-twitter header h1:after {
 	content: " via Twitter";
+}
+
+.category-twitter .article-content {
+	display: none;
 }
 
 .category-xanga header h1:after {
@@ -433,8 +446,8 @@ article img {
 	.wp-pagenavi > * {
 		display: inline-block;
 	}
-  
-  	.global-header #searchform input {
+
+	.global-header #searchform input {
 		height: 50px;
 	}
   
