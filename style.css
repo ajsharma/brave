@@ -357,6 +357,10 @@ article img {
 	display: none;
 }
 
+.category-github header h1:after {
+	content: " via Github";
+}
+
 .category-goodreads header h1:after {
 	content: " via Goodreads";
 }
