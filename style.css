@@ -464,3 +464,11 @@ article img {
 		-webkit-column-gap: 1em;
 	}
 }
+
+@media only screen and (min-width: 1080px) {
+  /* Style adjustments for viewports 1080px and over go here */
+	.global-navigation {
+		position: absolute;
+		top: 4em;
+	}
+}
