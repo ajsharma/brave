@@ -191,13 +191,13 @@ html {
 }
 
 body {
-	background: #0077a2;
-	color: #eeeeee;
+	background: #eeeeee;
+	color: #343b4b;
 	padding: 1em;
 }
 
 a {
-	color: #ffffff;
+	color: #343b4b;
 	text-decoration: none;
 }
 
